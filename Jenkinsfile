@@ -1,7 +1,6 @@
 pipeline {
     agent any
     tools{
-      docker 'localDocker'
       jdk 'localJDK'
       maven 'localMaven' 
     }
